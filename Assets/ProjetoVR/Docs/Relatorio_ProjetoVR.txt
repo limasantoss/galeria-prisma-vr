@@ -4,10 +4,10 @@ Nome do Projeto:
 - Galeria Prisma VR
 
 Nome Completo:
--
+- Igor lima dos Santos
 
 Turma / Residencia:
--
+- Turma: [WEB 3] Trilha 1 - BL | SC | META
 
 Limitacao de Hardware Relatada:
 - Nao se aplica. O projeto foi executado no Unity Editor com movimentacao via PC.
