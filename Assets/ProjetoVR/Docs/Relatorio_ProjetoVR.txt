@@ -1,0 +1,110 @@
+1. Identificacao
+
+Nome do Projeto:
+- Galeria Prisma VR
+
+Nome Completo:
+-
+
+Turma / Residencia:
+-
+
+Limitacao de Hardware Relatada:
+- Nao se aplica. O projeto foi executado no Unity Editor com movimentacao via PC.
+
+Cena principal:
+- Assets/ProjetoVR/Scenes/GaleriaPrisma_Main.unity
+
+2. Conceito do Projeto
+
+- O projeto apresenta uma galeria educativa simples sobre fundamentos de Web3 em um ambiente navegavel.
+- O usuario percorre a cena, se aproxima dos prismas e interage com cada um deles de forma independente.
+- Cada prisma representa um conceito:
+- Descentralizacao
+- Imutabilidade
+- Transparencia
+- Contratos Inteligentes
+- Tokenizacao
+- Nao existe ordem obrigatoria entre os prismas.
+- A experiencia final usa prismas independentes, sem fluxo sequencial obrigatorio.
+
+3. Configuracao Tecnica do Projeto
+
+- Versao do Unity observada no projeto: 6000.3.13f1
+- Cena incluida em Build Settings: Assets/ProjetoVR/Scenes/GaleriaPrisma_Main.unity
+- Meta XR SDK instalado no projeto
+- XR Plugin Management configurado com OpenXR para Android
+- Build preparado para Android / Meta Quest
+- Active Input Handling em Both
+- Android Minimum API Level em 33
+- Android Target API Level em 34
+- Movimentacao no PC/Editor implementada com teclado e mouse
+- O projeto preserva a configuracao geral de XR e Android ja existente no repositorio
+
+4. Assets e Elementos da Cena
+
+- Player de teste em PC/Editor com CharacterController
+- Main Camera unica como filha do player
+- Chao caminhavel
+- Paredes laterais e parede de fundo
+- Iluminacao principal
+- Painel informativo central
+- Interface simples para texto de interacao
+- 5 pedestais
+- 5 prismas interativos
+- Feedback de interacao por cor, luz, som e particulas
+- Skybox padrao do projeto configurado na cena
+
+5. Hierarquia de GameObjects
+
+- 00_Managers
+- PC_Player
+- Main Camera
+- Floor
+- Wall_Back
+- Wall_Left
+- Wall_Right
+- Pedestal_01 / Prisma_01
+- Pedestal_02 / Prisma_02
+- Pedestal_03 / Prisma_03
+- Pedestal_04 / Prisma_04
+- Pedestal_05 / Prisma_05
+- Area_Informacao_Central
+- Canvas_UI
+- Texto_Interacao
+- Painel_Aviso_Texto
+
+6. Planejamento do Repositorio GitHub
+
+- O envio para GitHub deve incluir:
+- Assets/
+- ProjectSettings/
+- Packages/
+- O repositorio deve ignorar:
+- Library/
+- Temp/
+- Logs/
+- Obj/
+- Build/
+- UserSettings/
+- A organizacao recomendada e manter a cena principal, scripts da galeria e documentacao dentro de Assets/ProjetoVR/.
+
+7. Plano de Execucao Passo a Passo
+
+1. Abrir o projeto no Unity 6000.3.13f1.
+2. Confirmar que os pacotes Meta XR, XR Plugin Management e OpenXR estao instalados.
+3. Abrir a cena Assets/ProjetoVR/Scenes/GaleriaPrisma_Main.unity.
+4. Verificar a hierarquia principal e os 5 prismas.
+5. Entrar em Play Mode no Editor.
+6. Testar movimentacao com W, A, S, D, mouse e Left Shift.
+7. Aproximar-se de cada prisma e pressionar E para validar a interacao.
+8. Confirmar mudanca de cor, luz, som e particulas em cada prisma.
+9. Conferir Build Settings com a cena correta.
+10. Revisar a documentacao final antes do envio.
+
+8. Reflexao Final
+
+- O projeto demonstra uma experiencia introdutoria de VR/XR compativel com a atividade, mesmo com teste principal realizado no PC/Editor.
+- A galeria final prioriza clareza visual, navegacao simples e interacao direta com os conceitos apresentados.
+- A escolha por prismas independentes tornou a experiencia mais objetiva para avaliacao e demonstracao.
+- O resultado final tambem ajuda a exercitar organizacao de cena, nomenclatura, documentacao e preparacao de entrega em GitHub.
