@@ -1,0 +1,49 @@
+Passo a passo simples para conferencia e entrega do projeto
+
+1. Criar ou abrir o projeto Unity 6000.3.13f1.
+
+2. Configurar Meta XR SDK.
+- Confirmar que o pacote Meta XR SDK esta instalado no projeto.
+- Confirmar que o projeto continua compativel com o ambiente Meta Quest.
+
+3. Configurar Android.
+- Confirmar plataforma Android para build da experiencia VR.
+- Conferir Minimum API Level em Android 13 / API 33.
+- Conferir Target API Level em valor compativel com o projeto.
+
+4. Configurar XR Plugin Management.
+- Confirmar XR Plugin Management ativo no projeto.
+- Confirmar uso de OpenXR para Android.
+
+5. Abrir GaleriaPrisma_Main.unity.
+- Caminho: Assets/ProjetoVR/Scenes/GaleriaPrisma_Main.unity
+- Conferir se a cena abre corretamente no Editor.
+
+6. Testar movimento no PC/Editor.
+- W, A, S, D para mover
+- Mouse para olhar
+- Left Shift para correr
+- Esc para liberar cursor
+- Clique esquerdo para travar cursor novamente
+
+7. Testar os 5 prismas.
+- Aproximar do prisma
+- Ler a mensagem de interacao
+- Pressionar E
+- Confirmar mudanca de cor do prisma
+- Confirmar mudanca de luz, som curto, particulas e efeito visual no chao
+- Repetir nos cinco prismas
+
+8. Conferir Build Settings.
+- Confirmar que Assets/ProjetoVR/Scenes/GaleriaPrisma_Main.unity esta incluida na lista de cenas
+- Confirmar preparacao para Android / Meta Quest
+
+9. Conferir documentacao.
+- Revisar README.txt
+- Revisar Relatorio_ProjetoVR.txt
+- Revisar PASSO_A_PASSO_MONTAGEM_UNITY.txt
+
+10. Preparar envio no GitHub/Homero.
+- Incluir apenas Assets/, ProjectSettings/ e Packages/
+- Nao incluir Library/, Temp/, Logs/, Obj/, Build/ e UserSettings/
+- Conferir se a documentacao final acompanha a entrega
