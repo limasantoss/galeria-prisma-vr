@@ -42,6 +42,14 @@ Requisitos tecnicos observados no projeto
 - Movimentacao funcional no PC/Editor sem depender apenas do headset
 - Chao caminhavel, skybox padrao configurado e mais de 5 objetos 3D na cena
 
+Status da entrega
+- A cena principal esta configurada.
+- A movimentacao no PC/Editor esta implementada.
+- Os prismas possuem interacao com a tecla E.
+- O chao e os prismas mudam de cor.
+- Ha feedback sonoro/visual.
+- O relatorio tecnico esta disponivel em Assets/ProjetoVR/Docs/Relatorio_ProjetoVR.txt.
+
 Observacao sobre logs do Meta XR/MRUK
 - Durante testes no Unity Editor, podem aparecer logs informativos de pacotes Meta XR ou MRUK.
 - Se a cena abre, o movimento funciona e as interacoes acontecem normalmente, esses logs nao sao necessariamente erro critico de entrega.
