@@ -1,6 +1,6 @@
 # Galeria Prisma VR
 
-## Descricao curta
+## Descrição curta
 
 Ambiente educativo em Unity com tema Web3, preparado para a atividade de introducao a XR/VR.
 
@@ -55,7 +55,7 @@ O projeto apresenta uma galeria virtual simples com 5 prismas interativos, paine
 - Ha feedback sonoro e visual
 - Relatorio tecnico disponivel em `Assets/ProjetoVR/Docs/Relatorio_ProjetoVR.txt`
 
-## Observacoes finais
+## Observações finais
 
 - O repositorio foi mantido com as pastas essenciais `Assets/`, `Packages/` e `ProjectSettings/`.
 - A documentacao interna original foi preservada em `Assets/ProjetoVR/Docs/README.txt`.
